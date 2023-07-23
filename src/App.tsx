@@ -1,10 +1,15 @@
+import { ParamEditor } from "./components/ParamEditor";
 
-function App() {
-  return (
-    <main>
-      <h1>SOme test</h1>
-    </main>
-  );
+
+
+export const App = ()=>{
+      return (
+        <ParamEditor />
+      )
+  
 }
 
 export default App;
+
+
+
